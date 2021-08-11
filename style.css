@@ -1,0 +1,66 @@
+*{
+    /*border: 1px solid red;*/
+    margin:0px;
+    padding:0px;
+
+
+    box-sizing: border-box;
+
+}
+
+html{
+
+    height: 100vh;
+}
+.menu{
+
+    background-color: lightblue;
+    height: 60px;
+}
+
+.formula-bar{
+    background-color: lightsalmon;
+    height: 20px;
+
+}
+
+
+/* main area*/
+.main{
+    background-color: lime;
+    height: calc( 100vh - 80px );
+    overflow: auto;
+    position: relative;
+}
+
+.cell{
+
+    border: 0.5px solid;
+    height: 2rem;
+    min-width: 4rem;
+    text-align: center;
+}
+.top-row{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 64px;
+}
+
+
+
+.top-left-col
+{
+    width: 10px;
+}
+
+.row{
+ 
+     display: flex;
+}
+
+.grid{
+    position: absolute;
+    top: 31px;
+    left: 64px;
+}
